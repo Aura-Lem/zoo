@@ -42,7 +42,7 @@ export class Animal {
         }
     }
 
-    birthday() {
-        return `Happy birthday ${this.name}! Now you are ${++this.age} years old!`;
+    birthday(food) {
+        return `Happy birthday ${this.name}! Now you are ${++this.age} years old! ${this.name} eats a ${food} cake`;
     }
 }

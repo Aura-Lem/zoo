@@ -30,5 +30,5 @@ console.log(cici);
 console.log(simba);
 console.log(simba.feed('meat'));
 console.log(simba);
-console.log(pink.birthday());
+console.log(pink.birthday('shrimp'));
 
