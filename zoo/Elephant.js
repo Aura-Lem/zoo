@@ -6,7 +6,7 @@ export class Elephant extends Animal{
         this.legCount = 4;
         this,this.isHungry = false;
         this.species = 'dramblys';
-        this.wantedFood = 'grass';
+        this.wantedFood = 'fruit';
         this.sound = '🐘';
     } 
 

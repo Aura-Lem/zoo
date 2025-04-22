@@ -9,11 +9,12 @@ export class Animal {
     }
 
     feed(food) {
+        
         if (this.isHungry === true && this.wantedFood === food) {
             this.isHungry = false;
             this.energy += 10;
                if (this.energy > 40){
-                this.energy = 40;
+               this.energy = 40;
                }
             return "Ačiū už pietus!"
         } else if (this.isHungry === true) {
@@ -40,6 +41,10 @@ export class Animal {
         if (this.energy < 40 || this.energy === 0) {
             this.energy += 20;
         }
+    }
+
+    trick() {
+        return 'Nemoku jokiu triuku.'
     }
 
     birthday(food) {
